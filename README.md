@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>LeaderBoard API</b></h3>
+  <h3><b>Math Magician</b></h3>
 
 </div>
 
@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[LeaderBoard API\] ](#-todo-list-)
+- [📖 \[Math-Magician\] ](#-MATH-CALCULATOT-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,25 +29,27 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [TodoList Application] <a name="about-project"></a>
+# 📖 [MATH MAGICIAN APP] <a name="about-project"></a>
 
-**[Leaderboard API]** website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+**[Math Magician]** wMath magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
+Make simple calculations.
+Read a random math-related quote.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML</summary>
+  <summary>React-redux</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>JavaScript</summary>
+  <summary>React-Redux</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+    <li><a href="https://react-redux.js.org/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -56,8 +58,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Sending and receiving data from API.]**
-- **[ES6 modules & modular JavaScript.]**
-- **[Using webpack to bundle JavaScript.]**
+- **[Jsx syntax and routing.]**
+- **[Unit test in react.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://bettenoch.github.io/LeaderBoad_API/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +93,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Bettenoch/Webpack-Project.git
+  git clonehttps://github.com/Bettenoch/Math-Magician.git
 ```
 
 ### Usage
@@ -99,8 +101,7 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  Open index.html in browser
-  or
+  
   open webpack by running npm run start
 ```
 
@@ -125,7 +126,7 @@ To run the project, execute the following command:
 
 - [ ] **[Add more pages]**
 - [ ] **[Improve User Interaction drag task]**
-- [ ] **[Add scroll when tasks are many]**
+- [ ] **[Add more math functions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +136,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Bettenoch/Webpack-Project/issues).
+Feel free to check the [issues page](https://github.com/Bettenoch/Math-Magician/issues).
 
 <!-- SUPPORT -->
 
@@ -155,7 +156,7 @@ I would like to thank Microverse staff for their support and robust program.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Bettenoch/Webpack-Project/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Bettenoch/Math-Magician/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

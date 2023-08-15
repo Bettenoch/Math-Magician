@@ -1,0 +1,11 @@
+.calc-display {
+  display: flex;
+  background-color: rgb(92, 85, 85);
+  width: 30rem;
+  color: aliceblue;
+  justify-content: flex-end;
+}
+
+.calc-display span {
+  padding: 1rem;
+}

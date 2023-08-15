@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math-Magician\] ](#-MATH-CALCULATOT-)
+- [📖 \[Math-Magician\] ](#-MATH-CALCULATOR-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)

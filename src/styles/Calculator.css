@@ -16,6 +16,9 @@
 
 .input-text {
   display: flex;
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 1rem;
   background: none;
   color: aliceblue;
   outline: none;

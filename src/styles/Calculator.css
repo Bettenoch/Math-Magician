@@ -8,7 +8,19 @@
 
 .display-content {
   display: flex;
+  justify-content: flex-end;
   width: 100%;
+  background-color: rgb(92, 85, 85);
+  padding-block: 0.8rem;
+  
+}
+
+.input-text {
+  display: flex;
+background: none;
+color: aliceblue; 
+outline: none;
+border: none;
 }
 
 .math-functions {

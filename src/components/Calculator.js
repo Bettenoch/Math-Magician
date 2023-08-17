@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Calculator.css';
 import calculate from '../logic/Calculate';
-import generate from './ButtonLayout';
+import generateBTLayout from './ButtonLayout.js';
 
 const calLayout = {
   'row-first':['AC', '+/-', '%', '÷'], 
@@ -36,7 +36,7 @@ const Calculator = () => {
             disabled
           />
         </article>
-        {generateCalLayout(calLayout, handleCalc)}
+        {generateBTLayout(calLayout, handleCalc)}
       </div>
     </>
   );

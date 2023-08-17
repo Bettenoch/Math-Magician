@@ -29,9 +29,7 @@ function generateRow(rowName, buttons, onClickFunction) {
 export default function generateBTLayout(calLayout, onClickFunction) {
   return (
     <article className="math-functions">
-      {Object.keys(calLayout).map((rowName) => {
-        return generateRow(rowName, calLayout[rowName], onClickFunction);
-      })}
+      {Object.keys(calLayout).map((rowName) => generateRow(rowName, calLayout[rowName], onClickFunction))}
     </article>
   );
 }

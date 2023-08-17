@@ -2,6 +2,14 @@ import React, { useState } from 'react';
 import '../styles/Calculator.css';
 import calculate from '../logic/Calculate';
 
+const calLayout = {
+  "row-first":["AC","+/-","%"÷"],
+  "row-second":["7","8","9","x"],
+  "row-third":["4","5","6","-"],
+  "row-fourth":["1","2","0","+"],
+  "row-fifth":["0",".","="]
+}
+
 const Calculator = () => {
   const [inputData, setInputData] = useState({
     total: null,
@@ -27,48 +35,49 @@ const Calculator = () => {
             disabled
           />
         </article>
-        <article className="math-functions">
-          <article className="math-row row-first">
-            <button type="button" name="AC" onClick={handleCalc}>AC</button>
-            <button type="button" name="+/-" onClick={handleCalc}>+/-</button>
-            <button type="button" name="%" onClick={handleCalc}>%</button>
-            <button type="button" name="÷" onClick={handleCalc}>÷</button>
-          </article>
-
-          <article className="math-row row-second">
-            <button type="button" name="7" onClick={handleCalc}>7</button>
-            <button type="button" name="8" onClick={handleCalc}>8</button>
-            <button type="button" name="9" onClick={handleCalc}>9</button>
-            <button type="button" name="x" onClick={handleCalc}>x</button>
-          </article>
-
-          <article className="math-row row-third">
-            <button type="button" name="4" onClick={handleCalc}>4</button>
-            <button type="button" name="5" onClick={handleCalc}>5</button>
-            <button type="button" name="6" onClick={handleCalc}>6</button>
-            <button type="button" name="-" onClick={handleCalc}>-</button>
-          </article>
-
-          <article className="math-row row-fourth">
-            <button type="button" name="1" onClick={handleCalc}>1</button>
-            <button type="button" name="2" onClick={handleCalc}>2</button>
-            <button type="button" name="3" onClick={handleCalc}>3</button>
-            <button type="button" name="+" onClick={handleCalc}>+</button>
-          </article>
-
-          <article className="math-row row-fifth">
-            <div>
-              <button type="button" name="0" onClick={handleCalc}>0</button>
-            </div>
-            <div>
-              <button type="button" name="." onClick={handleCalc}>.</button>
-              <button type="button" name="=" onClick={handleCalc}>=</button>
-            </div>
-          </article>
-        </article>
+        {generateCalLayout(calLayout, handleCalc)}
       </div>
     </>
   );
 };
+
+function generateButton(buttonName, onClickFunction) {
+  return (
+    <button type="button" name={buttonName} onClick={onClickFunction}>
+      {buttonName}
+    </button>
+  );
+}
+
+function generateRow(rowName, buttons, onClickFunction) {
+  if (rowName === "row-fifth") {
+    return (
+      <article className={`math-row ${rowName}`}>
+        <div>
+          {generateButton(buttons[0], onClickFunction)}
+        </div>
+        <div>
+          {buttons.slice(1).map((button) => generateButton(button, onClickFunction))}
+        </div>
+      </article>
+    );
+  } else {
+    return (
+      <article className={`math-row ${rowName}`}>
+        {buttons.map((button) => generateButton(button, onClickFunction))}
+      </article>
+    );
+  }
+}
+
+function generateCalLayout(calLayout, onClickFunction) {
+  return (
+    <article className="math-functions">
+      {Object.keys(calLayout).map((rowName) =>
+        generateRow(rowName, calLayout[rowName], onClickFunction)
+      )}
+    </article>
+  );
+}
 
 export default Calculator;

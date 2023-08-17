@@ -31,7 +31,7 @@ export default function generateBTLayout(calLayout, onClickFunction) {
     <article className="math-functions">
       {Object.keys(calLayout).map((rowName) => {
         generateRow(rowName, calLayout[rowName], onClickFunction)
-      )}
+      }
     </article>
   );
 }

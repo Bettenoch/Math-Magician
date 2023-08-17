@@ -3,12 +3,12 @@ import '../styles/Calculator.css';
 import calculate from '../logic/Calculate';
 
 const calLayout = {
-  'row-first':['AC','+/-','%','÷'], 
-  'row-second':['7','8','9','x'], 
-  'row-third':['4','5','6','-'], 
-  'row-fourth':['1','2','0','+'], 
-  'row-fifth':['0','.','=']
-}
+  'row-first':['AC', '+/-', '%', '÷'], 
+  'row-second':['7', '8',  '9',  'x'], 
+  'row-third':['4', '5', '6', '-'], 
+  'row-fourth':['1', '2', '0', '+'], 
+  'row-fifth':['0', '.', '=']
+};
 
 const Calculator = () => {
   const [inputData, setInputData] = useState({

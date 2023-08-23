@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 40%;
   margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote-display {
@@ -33,12 +34,8 @@
 .loader-container {
   position: relative;
   display: flex;
-  width: 40%;
-  height: 15rem;
+  justify-content: center;
   margin-top: 4rem;
-  background-image: url('../Assets//images/floral1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 10px;
   box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }

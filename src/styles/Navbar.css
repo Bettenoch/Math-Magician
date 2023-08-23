@@ -1,0 +1,27 @@
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  background-color: aliceblue;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-right: 0.5rem;
+}
+
+.navlink {
+  border-right: 2px solid rgb(56, 9, 9);
+  padding-right: 0.5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+}

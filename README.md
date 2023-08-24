@@ -126,11 +126,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 👤 **Enoch Bett**
 
-
-
 - GitHub: [@bettenoch](https://github.com/Bettenoch)
 - Twitter: [@BybEnoch](https://twitter.com/BybEnoch)
 - LinkedIn: [@GeoIntelligence](https://www.linkedin.com/in/bett-kipngeno-enock-8b5153214/)
+
+👤 **Mumbere Habert**
+- GitHub: [mumbereh](https://github.com/mumbereh)
+- Twitter: [@mumberehabert1](https://twitter.com/mumberehabert1)
+- LinkedIn: [Mumbere Habert](https://www.linkedin.com/in/mumbere-habert-33898a255/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>

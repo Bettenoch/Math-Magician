@@ -1,5 +1,12 @@
+import renderer from 'react-test-renderer';
 import operate from '../../logic/operate';
 
+describe('should match DOM snapshots', () => {
+  it('should match the calculate DOM snapshot', () => {
+    const tree = renderer.create(<operate />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
 describe('should perform given calculation', () => {
   test('should divide 25 by 5 to give 5', () => {
     const divide = operate('25', '5', '÷');

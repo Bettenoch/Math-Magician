@@ -15,7 +15,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-     - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -62,12 +61,6 @@ Read a random math-related quote.
 - **[Unit test in react.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,11 +119,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 👤 **Enoch Bett**
 
-
-
 - GitHub: [@bettenoch](https://github.com/Bettenoch)
 - Twitter: [@BybEnoch](https://twitter.com/BybEnoch)
 - LinkedIn: [@GeoIntelligence](https://www.linkedin.com/in/bett-kipngeno-enock-8b5153214/)
+
+👤 **Mumbere Habert**
+- GitHub: [mumbereh](https://github.com/mumbereh)
+- Twitter: [@mumberehabert1](https://twitter.com/mumberehabert1)
+- LinkedIn: [Mumbere Habert](https://www.linkedin.com/in/mumbere-habert-33898a255/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>

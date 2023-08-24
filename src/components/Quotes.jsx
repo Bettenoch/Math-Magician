@@ -54,11 +54,11 @@ const Quotes = () => {
   };
 
   return (
-    <article className="quote-container">
+    <article data-testid="quote-space" className="quote-container">
       {
             data.length > 0 ? (
               <article className="quote-display">
-                <p className="showQuote">
+                <p className="showQuote" data-testid="test-quote">
                   {data[0]?.quote}
                 </p>
                 <span className="author">
@@ -71,7 +71,7 @@ const Quotes = () => {
               </article>
             )
         }
-      <button className="quote-btn" type="button" onClick={refreshQuote}>  Refresh</button>
+      <button data-testid="test-refresh" className="quote-btn" type="button" onClick={refreshQuote}>  Refresh</button>
     </article>
   );
 };

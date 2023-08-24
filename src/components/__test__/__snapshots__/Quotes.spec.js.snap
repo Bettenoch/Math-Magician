@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display quotes should show one comment 1`] = `
+<article
+  className="quote-container"
+  data-testid="quote-space"
+>
+  <article>
+    <p
+      className="showQuote"
+    >
+      Please refresh to see some quotes.
+    </p>
+  </article>
+  <button
+    className="quote-btn"
+    data-testid="test-refresh"
+    onClick={[Function]}
+    type="button"
+  >
+      Refresh
+  </button>
+</article>
+`;

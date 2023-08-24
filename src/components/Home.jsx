@@ -4,7 +4,7 @@ import '../styles/Home.scss';
 const Home = () => (
   <div className="home-container">
     <article>
-      <h2>Welcome to our page!</h2>
+      <h2 data-testid="welcome-page">Welcome to our page!</h2>
     </article>
     <article className="home-intro">
       <p>

@@ -19,7 +19,7 @@ const Calculator = () => {
     <>
       <div className="main-container">
         <div>
-          <h3>Let&apos;s do some math!!</h3>
+          <h3 data-testid="welcome-title">Let&apos;s do some math!!</h3>
           <div className="magician" />
         </div>
         <div className="container">
@@ -27,6 +27,7 @@ const Calculator = () => {
             <input
               type="text"
               className="input-text"
+              data-testid="output"
               id="calc-screen"
               value={result === '' ? '0' : result}
               disabled
@@ -34,9 +35,9 @@ const Calculator = () => {
           </article>
           <article className="math-functions">
             <article className="math-row row-first">
-              <button type="button" name="AC" onClick={handleCalc}>AC</button>
-              <button type="button" name="+/-" onClick={handleCalc}>+/-</button>
-              <button type="button" name="%" onClick={handleCalc}>%</button>
+              <button data-testid="clear" type="button" name="AC" onClick={handleCalc}>AC</button>
+              <button data-testid="add" type="button" name="+/-" onClick={handleCalc}>+/-</button>
+              <button data-testid="modulo" type="button" name="%" onClick={handleCalc}>%</button>
               <button type="button" name="÷" onClick={handleCalc}>÷</button>
             </article>
 
